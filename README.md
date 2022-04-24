@@ -1,12 +1,21 @@
 # Honeypot Assignment
 
-**Time spent:** **X** hours spent in total
+**Time spent:** **2** hours spent in total
 
-**Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
+**Objective:** Create a honeynet using MHN-Admin. 
+
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** Use GCP. Commands shown in the text editor in gif.
+**Summary:** Use GCP SDK. Windows PowerShell Commands shown in the text editor in gif.
+mhm-admin application installation:
+```
+cd /opt/
+sudo git clone https://github.com/pwnlandia/mhn.git
+cd mhn/
+sudo sed -i 's/Flask-SQLAlchemy==2.3.2/Flask-SQLAlchemy==2.5.1/g' server/requirements.txt
+sudo ./install.sh
+```
 
 <img src="https://github.com/Codepath-Twitter-Clone/CyberSecurity_Unit11/blob/main/unit11_1.gif">
 
