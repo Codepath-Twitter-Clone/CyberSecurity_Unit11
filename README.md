@@ -6,9 +6,9 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+**Summary:** Use GCP. Commands shown in the text editor in gif.
 
-<img src="mhn-admin.gif">
+<img src="https://github.com/Codepath-Twitter-Clone/CyberSecurity_Unit11/blob/main/unit11_1.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
